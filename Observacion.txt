@@ -1,0 +1,89 @@
+-----------------------------------------------------------------
+CREANDO POLICIT
+
+php artisan make:policy EstablecimientoPolicy -m Establecimiento
+
+Nota: Protegiendo que solo que edite el mismo que lo creo.
+
+--------------------------------------------------------
+CREANDO MIDDLEWARE
+
+php artisan make:MIDDLEWARE "nombre"
+
+Nota: Los middleware los registramos en el kernel
+
+Estructura Kernel> globales
+                    Rutas
+                    Personalizado
+
+---------------------------------------------------------
+PAQUETE PHP
+
+Instaldo intervension imagen
+ composer require intervention/image
+
+
+----------------------------------------------------------
+PAQUETE JS usado
+
+https://leafletjs.com/download.html
+
+
+PAQUETE EXTENSION LEAFLET
+Paquetes: https://esri.github.io/esri-leaflet/
+
+geosearch
+https://smeijer.github.io/leaflet-geosearch/
+nota: para buscar con buscador
+
+
+GeoCoder
+https://github.com/Esri/esri-leaflet-geocoder/
+
+Nota: Nos va permitir tener mas informacion del punto selecionado
+
+Solucion al reverse
+https://esri.github.io/esri-leaflet/examples/reverse-geocoding.html
+
+
+----------------------------------------
+Dropzone
+https://www.dropzonejs.com/
+
+
+------------   VUE   ---------------------
+VUEEX - MANEJAR EL STATE EN VUE similar a redux
+
+- npm i --save-dev vuex
+
+-------
+VUE ROUTER
+
+npm i vue-router
+--------
+
+VUE PAGE TRANSITION
+
+npm i --save-dev vue-page-transition
+
+URL :https://www.npmjs.com/package/vue-page-transition#demo
+
+--------
+VUE leaflet
+
+npm i --save-dev vue2-leaflet
+
+URL: https://vue2-leaflet.netlify.app/
+nota: plugin de mapa para leaftlet
+
+--------
+Dependendias de leaflet
+
+npm i --save leaflet
+
+
+--- PAQUETRE LIGTBOX
+
+npm i --save-dev lightbox2
+
+Nota: Recordar en webpack habilitar jquery
